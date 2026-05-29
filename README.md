@@ -48,14 +48,6 @@ python GWnet/run.py --dataset CA
 python STGCN/run.py --dataset PEMS03
 ```
 
-### Main Model
-
-You can also train the main MP3 model directly:
-
-```bash
-python run.py --use_residual --use_bn --use_long
-```
-
 ## Acknowledgement
 
 We thank the authors of the following repositories for code reference:
